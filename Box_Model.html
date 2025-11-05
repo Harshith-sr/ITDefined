@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+    <style>
+        body{
+            background-color: rgb(219, 104, 104);
+        }
+
+        .box{
+            width: 400px;
+            height: 200px;
+            padding: 20px;
+            border: 12px solid rgb(10, 10, 10);
+            margin: 80px;
+            color: rgb(12, 12, 12);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div style="background-color: white; height: 1300px; width: 1400px; overflow: hidden;">
+        <span>Home</span>
+        <span>About</span>
+        <span>Contact</span>
+        <span>Blog</span>
+
+        <div class="box">
+            My html code
+            My html code
+            My html code
+            My html code
+            My html code
+            My html code
+         </div>
+    </div>
+</body>
+</html>
+
+<!--
+In CSS every modle is considered as BOX
+Box contains a text, images etc any info
+
+Margin -> Outermost layout of the element , Space between the border and box
+Border -> Border will not be initially
+Padding -> space between the border and content
+Content ->Core of every box
+
+Formula to calculate the Border Box
+formula -> width + padding + border + padding + border
+
+Formula to calculate the COntent Box
+W = width + Padding*2 + border*2
+ by using boxsizing element
+
+ Outline
+         /* Outline example */
+        .outline-example{
+            border: 30px solid brown;
+            background-color: red;
+            outline: 20px solid black
+        }
+
+Box Shadow
+/*box shadow example*/
+.box-shadow{
+background-color:    ;
+box-shadow:5px 5px 10px color;
+}
+
+Text Shadow
+/*Text shadow example*/
+.text-shadow{
+background-color:    ;
+text-shadow:5px 5px 10px color;
+}
+-->

@@ -1,0 +1,26 @@
+There are 5 types of units
+
+    Absolute length --> fixed number of no
+    Example:     PX--> pixels , inxhes , cms
+
+    Relative length unit --> Based on the font size of the parent
+    Example: 10% , em , rem (root element --> parent)
+
+    Viewport Percentage Lengths --> Height and width of the screen
+    Example: 100vh and 100vw
+
+
+Color:
+        Named color --> red, green, black etc
+        Hexadeciaml Component --> RGB or RRGGBB components [red , green , blue] (#rrggbb)
+        Alpha--> RGBA
+        HSL --> Hue , saturation , lightness, Alpha mainly used by the designers
+
+Color Gradient:
+
+    Raidal Gradient: starts from center and expand
+        Example: background: Radial gradient(to right, color);
+
+    Linear Gradient: starts from left to right 
+        Example: background: Linear gradient(circle/elipse etc, color);
+
