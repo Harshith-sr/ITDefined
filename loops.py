@@ -1,96 +1,39 @@
-# countries = ["IND", "AUS", "NZ", "UAE"]
+# # def multiplicationTable(N):
+#     #code here 
 
-# for el in countries:
-#     print(el.lower())
+# N = int(input("Enter the number"))
 
-# multiplicaion table
 
-# number = input ("enter the number\n")
-# number = int(number)
-
+# # def multiplicationTable(N):
 # for i in range(1,11):
-#     print(f"{number} * {i} = {number * i}")
+#     print(f"{N} * {i} = {N*i}")
+
+# # list comprehension
+# mul = [i*N for i in range(1,11)]
+
+# print (mul)
 
 
-# lst = ["Harshith Kumar S", "Lohith Kumar S", "Rathnamma M R", "ShivaKumar T H"]
 
-# for i in lst:
-#     print(lst[i].append(100))
-
-# set1 = { "IND", "AUS", "NZ", "UAE"}
-
-# for el in set1:
-#     print(el)
-
-# for el in range(10):
-#     if el == 5:
-#         print(el)
-
-#     # if el == 5:
-#         continue
-
-#     print("---->\n")
-
-# countries = ["IND", "AUS", "NZ", "UAE", "BAN", "UK", "SIN", "BHU"]
-
-# for data in countries:
-
-#     print(data)
-
-#     countries.pop()
-
-#     print(countries)
-
-#     print(id(countries))
-
-# print(countries)
-
-# print(id(countries))
-
-# countries = ["IND"]
-
-# for el in countries:
-#     print(el)
-#     countries.pop()
-
-# a = "some"
-
-# b = "some"
-
-# print(id(a))
-
-# print(id(b))
-
-# pro = "Iphone"
-
-# for products in pro:
-#     print(pro[1])
-
-# nested_loop = []
-
-# for row in range(0,3):
-#     lst = []
-
-#     for col in range(1,4):
-#             lst.append(col+row)
-# nested_loop.append(col+row)
-    
-# print(nested_loop)
+# def stringJumper(s):
+#     for i in range('''Complete this'''):
+#         # from 0 to length of str and skip 2
+#         print(s[i], end="")
+#         #printing character and separating characters by nothing
 
 
-# x = True
-# counter = 0
+# str = input("enter the string\n")
 
-# while x:
-#     counter += 1
-#     print("Hello!!!")
+# for i in range( 0,len(str),2):
 
-#     if counter == 3:
-#         x = False
-
-countries = ["IND", "PAK", "AFG", "SL", "UK", "US", "NZ"]
+#     print(str[::2])
 
 
-while len(countries):
-    print(countries)
-    countries.pop()
+# x = int(input("Enter the number\n"))
+
+# while x > 0:
+#     print(x)
+#     x -= 1
+        
+        
+        
