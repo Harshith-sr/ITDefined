@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+    {% block content %}
+        <h1>About me</h1>
+        <h4>name: {{details.name}}</h4>
+        <p>phone: {{details.phone}}</p>
+        <p>email: {{details.email}}</p>
+        
+        {% for x in details.course %}
+            <h4>{{x}}</h4>
+        {%endfor%}
+    {% endblock %}
